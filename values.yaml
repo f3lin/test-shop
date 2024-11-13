@@ -4,5 +4,5 @@ ingress:
 #     nginx.ingress.kubernetes.io/ssl-redirect: "true"
 #     cert-manager.io/cluster-issuer: "letsencrypt-prod"
   # labels: {}
-  host: app.dev.monlabo.de
+  host: app.eks.monlabo.de
   tlsSecretName: 'wildcard-cert-tls'
